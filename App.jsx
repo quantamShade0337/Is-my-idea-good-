@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import InputForm from './components/InputForm.jsx'
-import ResultsView from './components/ResultsView.jsx'
-import LoadingState from './components/LoadingState.jsx'
-import { evaluateIdea } from './lib/scorer.js'
+import InputForm from './InputForm.jsx'
+import ResultsView from './ResultsView.jsx'
+import LoadingState from './LoadingState.jsx'
+import { evaluateIdea } from './scorer.js'
 
 const STORAGE_KEY = 'startup-evaluator-last-input'
 

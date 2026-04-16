@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { EXAMPLE_IDEAS } from '../lib/scorer.js'
+import { EXAMPLE_IDEAS } from './scorer.js'
 
 const styles = {
   form: {
